@@ -1,0 +1,8 @@
+
+<h1>Produto: {{nome}} </h1>
+<h1>Quantidade: {{quantidade}}</h1>
+<h1>Preco: {{valor}}</h1>
+<button (click)="diminuir()" [disabled]="quantidade === 1">-</button>
+<button (click)="aumentar()">+</button><br>
+<button (click)="adicionar()">adicionar</button><br><br>
+<h1>{{mensagem}}</h1>

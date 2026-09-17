@@ -1,0 +1,8 @@
+<label>Aluno:</label>
+<input type="text" [(ngModel)]="nome"><br>
+<h1>Aluno: {{nome}}</h1>
+<h1>Disciplinas: {{disciplinas}}</h1>
+<button (click)="mais()">+</button>
+<button (click)="menos()" [disabled]="disciplinas === 1">-</button><br><br>
+<button (click)="matricular()"[disabled]="nome === ''">Efetuar matricula</button><br>
+<h1>{{mensagem}}</h1>
