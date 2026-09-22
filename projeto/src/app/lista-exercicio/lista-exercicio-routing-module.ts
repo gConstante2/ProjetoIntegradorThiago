@@ -12,6 +12,7 @@ import {Exercicio9} from './exercicio9/exercicio9'
 import {Exercicio10} from './exercicio10/exercicio10'
 import {Exercicio11} from './exercicio11/exercicio11'
 import { Desafio } from './desafio/desafio';
+import { Principal } from './principal/principal';
 
 const routes: Routes = [
   {path: 'exercicio1', component: Exercicio1},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'exercicio9', component: Exercicio9},
   {path: 'exercicio10', component: Exercicio10},
   {path: 'exercicio11', component: Exercicio11},
+  {path: 'principal', component: Principal },
   {path:'desafio', component: Desafio}
 ];
 

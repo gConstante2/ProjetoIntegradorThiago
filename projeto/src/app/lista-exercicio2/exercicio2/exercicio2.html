@@ -1,0 +1,7 @@
+<h1>Usuario autenticado</h1>
+@if (autorizado){
+    <h2>Usuario liberado</h2>
+} @else{
+    <h2>Acesso negado</h2>
+}
+<button (click)= "alterar()">Alterar</button>

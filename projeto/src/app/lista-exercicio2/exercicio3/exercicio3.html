@@ -1,0 +1,13 @@
+<h1>Idade</h1>
+<h2>Idade: {{idade}}</h2>
+<button (click)="menos()" [disabled]="idade === 0">-</button>
+<button (click)="mais()">+</button>
+@if (idade < 12){
+    <h2>Criança</h2>
+}@else if(idade>=12 && idade<=17){
+    <h2>Adolescente</h2>
+}@else if(idade>=18 && idade<=59){
+    <h2>Adulto</h2>
+}@else{
+    <h2>Idoso</h2>
+}
